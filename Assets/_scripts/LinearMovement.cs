@@ -3,7 +3,7 @@ using UnityEngine;
 public class LinearMovement : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    [SerializeField] private float _movementTime;
+    [SerializeField] private float _time;
 
     private Vector3 _startPosition;
     private float _actualTime;
@@ -11,7 +11,7 @@ public class LinearMovement : MonoBehaviour
     private void Start()
     {
         _startPosition = transform.position;
-        _actualTime = _movementTime;
+        _actualTime = _time;
     }
 
     private void Update()
@@ -19,7 +19,7 @@ public class LinearMovement : MonoBehaviour
         if (_actualTime <= 0)
         {
             transform.position = _startPosition;
-            _actualTime = _movementTime;
+            _actualTime = _time;
         }
 
         Move();
