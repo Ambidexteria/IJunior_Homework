@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LinearMovement : MonoBehaviour
+public class Mover : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _time;

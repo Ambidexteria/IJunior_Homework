@@ -530,8 +530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f3c7072a2e9cc84a879c7b32bcece95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scalingSpeed: 1
-  _maxScale: 5
+  _scalingVector: {x: 2, y: 5, z: 3}
+  _scalingCycleTime: 5
 --- !u!136 &970675284
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -859,8 +859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f3c7072a2e9cc84a879c7b32bcece95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scalingSpeed: 0.2
-  _maxScale: 5
+  _scalingVector: {x: 3, y: 1, z: 2}
+  _scalingCycleTime: 5
 --- !u!114 &2005643183
 MonoBehaviour:
   m_ObjectHideFlags: 0
